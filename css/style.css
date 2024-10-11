@@ -108,7 +108,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   line-height: 1;
-  background: #0a043c;
+  background: #08032e;
 }
 
 ol,
@@ -169,6 +169,9 @@ img {
   position: absolute;
   width: 100%;
   padding: 30px 0;
+  background-color: rgba(41, 36, 76, 0.4);
+  
+  
   
 }
 
@@ -187,6 +190,7 @@ img {
 
 .header .navbar img {
   width: 220px;
+  
 }
 
 .header .navbar ul {
@@ -230,7 +234,7 @@ img {
 
 section.hero {
   height: 100vh;
-  background: #0a043c;
+  background: #08032e;
   position: relative;
 }
 
@@ -401,7 +405,7 @@ section.about2 div {
 section.gallery {
   background: #08032e;
   text-align: center;
-  padding: 90px 0;
+  padding-top: 90px;
 }
 
 section.gallery h2 {
@@ -741,8 +745,8 @@ header nav .showClose {
     padding-left: 30px;
   }
   section.adv {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 130px;
+    padding-bottom: 70px;
   }
   section.about,
   section.about2 {

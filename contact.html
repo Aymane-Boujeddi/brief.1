@@ -5,23 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
         <style>
-      .contactus {
+      section.contactus {
     height: 80vh;
-    background-color: #0d073e;
+    background-color: #08032e;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 140px;
 }
-.contactus h2{
+section.contactus h2{
     text-align: center;
   color: #fff;
   font-family: "Playfair Display", serif;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
-.contactus h2 span {
+section.contactus h2 span {
   color: #a3ddcb;
 }
 
@@ -29,12 +30,13 @@
 .contact {
     height: auto;
     width: 40%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(119, 139, 194);
     border-radius: 8px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .name-form, .email-form, .message-form {
@@ -46,12 +48,12 @@
 
 label {
     color: aliceblue;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 input, textarea {
     height: 40px; 
-    width: 100%;
+    width: 96%;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -100,10 +102,10 @@ button:hover {
                 
               </nav>
           </header>
-          <main>
+          
             
             
-          <div class="contactus" style="padding-top: 150px;">
+          <section class="contactus" >
             <h2>Contact <span>US</span></h2>
               <form method="POST" class="contact">
                   <div class="name-form">
@@ -120,8 +122,8 @@ button:hover {
                   </div>
                   <button type="submit" aria-label="Submit form">Submit</button>
               </form>
-          </div>
-      </main>
+            </section>
+      
       <footer class="container">
         <div class="footer-inner">
           <div>
